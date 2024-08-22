@@ -8,34 +8,17 @@ text="pages_ocr/$page.txt"
 image_old="pages/page_$offset.jpeg"
 image="pages/page_$page.jpeg"
 
-rv=$(ls $text)
-rv=$?
-echo "page"
-echo "[$rv]      $text"
-
-rv=$(ls $image_old)
-rv=$?
-echo "image"
-echo "[$rv]      $image_old"
-
-rv=$(ls $image)
-rv=$?
-echo "image"
-echo "[$rv]      $image"
-
-echo "renaming"
-echo "      $image_old"
-echo "to"
-echo "      $image"
+echo "renaming   $image_old"
+echo "to         $image"
 
 mv "pages/page_$offset.jpeg" "pages/page_$page.jpeg"
 
-ls $image
-
 echo "adding"
-echo "  $text"
-echo "  $image"
 
-git add "pages/page_$1.jpeg" "pages_ocr/$1.txt"
+rv=$(git add $text)
+rv=$?
+echo "[$rv]      $text"
 
-echo "[$?]"
+rv=$(git add $image)
+rv=$?
+echo "[$rv]      $image"
