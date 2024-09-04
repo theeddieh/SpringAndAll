@@ -36,8 +36,8 @@ echo
 echo "Ready to commit, message: Text formatting, pages $p1-$p4."
 
 # remaining edit passes
-# [] restored hyphenated/truncated words in prose passages
-# [] better indentation format for page numbers and headers
+# [x] restored hyphenated/truncated words in prose passages
+# [x] better indentation format for page numbers and headers
 # [] simple text markup
 # [] projects gutenberg text markup
 # [] unicode text markup?
