@@ -33,16 +33,6 @@
             white-space: pre;
         }
 
-        .upside-down {
-            transform: rotate(180deg)
-        }
-
-        .drop-letter {
-          float: left;
-          font-size: 200%;
-          line-height: 1;
-        }
-
         a {
             color: blue;
         }
@@ -59,32 +49,58 @@
             color: red;
         }
 
-    </style>
+        .upside-down {
+            transform: rotate(180deg)
+        }
+
+        .drop-letter {
+          float: left;
+          font-size: 200%;
+          line-height: 1;
+        }
+
+        #cover,
+        #copyright,
+        #dedication {
+            display: block;
+            white-space: pre;
+            font-family: serif;
+        }
+
+        #cover,
+        #dedication {
+            font-style: italic;
+        }
+
+        #copyright {
+            font-size: smaller;
+        }
+        </style>
 </head>
 
 <body>
-    <div id="title-page">
-        <p>
-            SPRING AND ALL
 
-            by
+    <div id="cover">
+    <span style="font-size:xx-large;">
+Spring and All</span>
 
-            William Garlos Williams
-        </p>
+    <span style="font-size:smaller;">
+                by</span>
+
+    <span style="font-size:large;">
+William Carlos Williams</span>
     </div>
-    <div id="copyright-page">
-        <p>
-            Copyrighted by the author
 
-            Published by
+    <div id="copyright">
+Copyrighted by the author
 
-            Contact Publishing Co.
-        </p>
+      Published by
+Contact Publishing Co.
     </div>
+
     <div id="dedication">
-        <p>
-            To Charles Demuth
-        </p>
+      To
+Charles Demuth
     </div>
 
     <main>
