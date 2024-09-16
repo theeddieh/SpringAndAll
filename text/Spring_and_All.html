@@ -10,7 +10,7 @@
     <style>
         body {
             max-width: fit-content;
-            padding-left: 10%;
+            margin: 0 auto;
         }
 
         h1,
@@ -59,48 +59,72 @@
           line-height: 1;
         }
 
-        #cover,
-        #copyright,
-        #dedication {
-            display: block;
-            white-space: pre;
-            font-family: serif;
+        #book-2 {
+            break-before: page;
         }
 
         #cover,
+        #legal-stuff,
         #dedication {
+            display: block;
+            text-align: center;
+
+            padding: 5%;
+
+            font-family: serif;
             font-style: italic;
+            font-size: smaller;
+
+            break-after: page;
+        }
+
+        #title {
+            font-size: xx-large;
+        }
+
+        #author {
+            font-size: x-large;
         }
 
         #copyright {
-            font-size: smaller;
         }
+
+        #publisher {
+        }
+
+        #dedication {
+        }
+
         </style>
 </head>
 
 <body>
 
     <div id="cover">
-    <span style="font-size:xx-large;">
-Spring and All</span>
-
-    <span style="font-size:smaller;">
-                by</span>
-
-    <span style="font-size:large;">
-William Carlos Williams</span>
+            <div id="title">
+                Spring and All
+            </div>
+            by
+            <div id="author">
+                William Carlos Williams
+            </div>
     </div>
 
-    <div id="copyright">
-Copyrighted by the author
-
-      Published by
-Contact Publishing Co.
+    <div id="legal-stuff">
+        <div id="copyright">
+            Copyrighted by the author
+        </div>
+        <div id="publisher">
+            Published by
+            <br>
+            Contact Publishing Co.
+        </div>
     </div>
 
     <div id="dedication">
-      To
-Charles Demuth
+        To
+        <br>
+        Charles Demuth
     </div>
 
     <main>
@@ -109,6 +133,11 @@ Charles Demuth
 
         <hr>
 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <br>
         <br>
         <br>
@@ -611,6 +640,11 @@ paragraph 4</a>) of the truth</p>
 </pre>
         </div>
 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <br>
         <br>
         <br>
