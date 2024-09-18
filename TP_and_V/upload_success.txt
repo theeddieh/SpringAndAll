@@ -1,0 +1,14 @@
+Success! File received and saved as /htdocs/copy/NEW/spring_and_all_tpv.tar.gz
+
+tar+gzip file detected, attempting to unpack:
+
+._TP_and_V
+TP_and_V/
+TP_and_V/._title_page.jpeg
+TP_and_V/title_page.jpeg
+TP_and_V/._supplement.txt
+TP_and_V/supplement.txt
+TP_and_V/._verso.jpeg
+TP_and_V/verso.jpeg
+
+Done. Upload more files or go to the Copyright Submission Page
