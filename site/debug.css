@@ -1,0 +1,31 @@
+* {
+    border-style: double;
+    border-width: 4px;
+
+    margin: 2px;
+    padding: 2px;
+}
+
+:hover {
+    border-style: solid;
+}
+
+:active {
+    border-style: double;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
