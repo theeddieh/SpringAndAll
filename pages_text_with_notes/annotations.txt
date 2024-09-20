@@ -1,0 +1,26 @@
+./07.txt:                        CHAPTER XIII [1]
+./07.txt:[1] Originally printed upside down. 
+[div]
+
+./10.txt:        THE TRADITIONALISTS OF PLAGIARISM [1]
+./10.txt:[1] Originally printed styled like a "sub-heading" of the chapter.
+[h3]
+
+./11.txt:truction of the species Homo sapiens[1] occured.
+./11.txt:[1] Originally italicized.
+[i]
+
+./15.txt:                    SAMUEL BUTLER[1]
+./15.txt:[1] subheading
+[h3]
+
+./16.txt:for several pages, is at last here. [1]
+./16.txt:[1] hands doen my favorite line :)
+
+./54.txt:That is it. If the actor simulates life it is[1] a lie. But
+./54.txt:[1] originally italicized
+[i]
+
+./82.txt:Les Trois Freres [1]
+./82.txt:[1] originally italicized
+[i]
