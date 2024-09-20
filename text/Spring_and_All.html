@@ -22,8 +22,6 @@
     <link rel="manifest"
           href="site/favicons/site.webmanifest">
 
-    <!-- <link rel="stylesheet" type="text/css" href="site/debug.css"> -->
-
     <style>
         body {
             max-width: fit-content;
@@ -2816,6 +2814,26 @@ Rare Book Division, The New York Public Library. (1923). <cite>Spring and All</c
     <br>
     
     </footer>
+
+    <script>
+        function toggleCSS() {
+            let debug = document.getElementById('debug');
+            if (debug == null) {
+                let link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.id = 'debug';
+                link.href = 'site/debug.css';
+
+                let head = document.head;
+                head.appendChild(link);
+            } else {
+                debug.remove()
+            }
+        }
+        </script>
+
+    <button onclick="toggleCSS()">debug</button>
 
 </body>
 
