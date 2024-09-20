@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>pphtml report</title>
+<style type="text/css">
+body { margin-left: 1em;}
+.red { color:red; }
+.green { color:green; }
+.redonyel { color:red; background-color: #FFFFAA; }
+.greenonyel { color:green; background-color: #FFFFAA; }
+.silverfade { color:silver; }
+.black { color:black; }
+.dim { color:#999999; }
+.warn { color:brown; background-color:white; }
+td { padding-right:2em; }
+table { margin-left:2em; }
+</style>
+</head>
+<body>
+<pre>
+********************************************************************************
+* PPHTML RUN REPORT                                                            *
+*                                         started: Friday, 2024-09-20 05:09:12 *
+********************************************************************************
+processing file: Spring_and_All.html
+pphtml version: 2023.01.14
+
+----- image tests --------------------------------------------------------------
+  *** no images folder found ***
+
+----- link tests ---------------------------------------------------------------
+[info] unexpected external links present
+  "https://digitalcollections.nypl.org/items/892aee53-e402-8e2c-e040-e00a18066e80#/?uuid=892aee53-e3e4-8e2c-e040-e00a18066e80"
+  "https://github.com/theeddieh/SpringAndAll"
+  "https://digitalcollections.nypl.org/items/892aee53-e402-8e2c-e040-e00a18066e80"
+[pass] link to cover image for epub (using link rel='icon')
+[info] file has 2 internal links to 2 expected targets
+[info] file has 43 actual internal targets
+[pass] all links resolve to correct target
+[info] targets not referenced with href
+  cover, title, author, legal-stuff, copyright, publisher, dedication
+  book-1, chapter-19, chapter-xiii, chapter-vi, chapter-2, i, ii
+  chapter-i, iii, iv, book-2, v, vi ... more not reported
+
+----- DP PPV tests -------------------------------------------------------------
+[info] title/h1 compare:
+       title: Spring and All
+          h1: Spring and All
+[<span class='redonyel'>warn</span>] title should be of the form
+          Alice's Adventures in Wonderland | Project Gutenberg
+[pass] no &lt;pre> tags
+[info] charset check
+       claimed: &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       detected: HTML document, UTF-8 Unicode text
+[pass] Document Type Header (file is HTML5)
+[pass] image alt tag tests
+       0 images with missing alt tags
+       0 images with empty alt tags
+       0 images with blank alt tags
+       2 images with textual alt tags
+       max alt text length: 2
+[user] please confirm the language code:
+       &lt;html lang="en">
+[info] document heading outline
+       h1: Spring and All
+         h2: CHAPTER 19
+         h2: CHAPTER XIII
+         h2: CHAPTER VI
+         h2: CHAPTER 2
+         h2: CHAPTER XIX
+           h3: THE TRADITIONALISTS OF PLAGIARISM
+         h2: I
+         h2: II
+         h2: CHAPTER I
+           h3: SAMUEL BUTLER
+         h2: III
+         h2: IV
+         h2: V
+         h2: VI
+         h2: VIII
+         h2: IX
+         h2: X
+         h2: XI
+         h2: XII
+         h2: XIII
+         h2: XIV
+         h2: XV
+         h2: XVI
+         h2: XVII
+         h2: XVIII
+         h2: XIX
+         h2: XX
+         h2: XXI
+         h2: XXII
+         h2: XXIII
+         h2: XXIV
+         h2: XXV
+         h2: XXVI
+         h2: XXVII
+
+----- Project Gutenberg tests --------------------------------------------------
+[info] class chapter count and h2 count
+       0 class chapter, 32 &lt;h2> tags
+
+----- CSS tests ----------------------------------------------------------------
+[info] CSS checks
+  defined CSS:
+    drop-letter poetry prose upside-down
+  used CSS:
+    drop-letter poetry prose upside-down
+--------------------------------------------------------------------------------
+run complete</pre></body></html>
