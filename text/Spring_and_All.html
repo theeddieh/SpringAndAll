@@ -2767,190 +2767,11 @@ it and dynamizing it at the same time.</p>
 
         </div>
 
-        <hr>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <hr>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <hr>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <hr>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <hr>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <hr>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <hr>
-
-        <br>
-        <br>
-        <br>
-
-        <hr>
-
-        <br>
-        <br>
-
-        <hr>
-
-        <br>
-
-        <hr>
-
-        <br>
-
-        <hr>
-
     </main>
 
     <footer>
 
-        <hr>
-
-        <br>
-
-        <hr>
+        <div id="fib-hrs"></div>
 
         Based on page scans<sup><a href="#footnote-1">[1]</a></sup>
         availble from the <a href="https://digitalcollections.nypl.org/items/892aee53-e402-8e2c-e040-e00a18066e80#/?uuid=892aee53-e3e4-8e2c-e040-e00a18066e80">
@@ -2990,9 +2811,7 @@ it and dynamizing it at the same time.</p>
         </div>
 
         <hr>
-
         <br>
-
         <hr>
 
         <br>
@@ -3021,6 +2840,20 @@ it and dynamizing it at the same time.</p>
             } else {
                 debug.remove()
             }
+        }
+
+        let fib = [1, 1, 2, 3, 5, 8, 13, 21];
+        let staggeredHorizontalRules = "<hr>";
+
+        for ( let i = fib.length - 1; i >= 0; i-- ) {
+            for ( let j = 0; j < fib[i]; j++ ) {
+                staggeredHorizontalRules += "<br>";
+            }
+            staggeredHorizontalRules += "<hr>";
+        }
+
+        if (document.getElementById("fib-hrs")) {
+            document.getElementById("fib-hrs").innerHTML = staggeredHorizontalRules;
         }
     </script>
 
