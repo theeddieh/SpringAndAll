@@ -24,3 +24,16 @@
 ./82.txt:Les Trois Freres [1]
 ./82.txt:[1] originally italicized
 [i]
+
+pg 2: "twenty years ago" is there a dash there, as in "years-ago"?
+
+pg. 9: "A perfect plagiarism results" is that a period or a dash at the end of the line?
+
+pg. 21: "life had not yed sieved" typo? should that be "yet"?
+
+pg. 38: should each "clean" be lined up? It look like the 2nd and 3rd are offset by an addional space
+
+in general:
+- should we preserve the spacing around quotes, e.g. " something word somthing "
+- should we push some end of line words to the next line for visual consistency? (NOT FOR POEMS of course)
+- open/closed quotes?
